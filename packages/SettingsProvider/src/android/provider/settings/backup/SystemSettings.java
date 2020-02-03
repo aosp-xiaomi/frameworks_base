@@ -119,7 +119,8 @@ public class SystemSettings {
                 Settings.System.NOTIFICATION_COOLDOWN_VIBRATE_UNLOCKED,
                 Settings.System.NETWORK_TRAFFIC_STATE,
                 Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD,
-                Settings.System.QS_SHOW_BATTERY_ESTIMATE
+                Settings.System.QS_SHOW_BATTERY_ESTIMATE,
+                Settings.System.RINGTONE_VIBRATION_PATTERN
         ));
         if (Flags.backUpSmoothDisplayAndForcePeakRefreshRate()) {
             settings.add(Settings.System.PEAK_REFRESH_RATE);
